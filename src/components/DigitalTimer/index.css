@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.app-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image:linear-gradient(to bottom,#ffffff,#cfcfcf,
+    #cfcfcf,#dafafe)
+}
+.heading{
+    font-size:48px;
+
+
+}
+.display-timer-container{
+    display:flex;
+    align-items:center;
+    width:90%;
+}
+.timer-display-container{
+    display:flex;
+    justify-content:center;
+    width:320px;
+    height:250px;
+    background-size:cover;
+    background-position:center;
+}
+elapsed-time-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.elapsed-time{
+    color:#00d9f5;
+    font-family:"Roboto";
+    font-size:26px;
+
+}
+.time-state{
+    color:#1e293b;
+    font-family:"Roboto";
+    font-size:14px;
+    font-weight:bold;
+    margin:0px;
+
+
+}
+.contols-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-grow:1;
+
+}
+.time-controll-btn{
+    display:flex;
+    align-items:center;
+    background-color:transparent;
+    border:none;
+    margin-left:8px;
+    
+
+}
